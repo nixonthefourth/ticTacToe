@@ -47,4 +47,22 @@ while variable game has True statement
   
   input player's choice
   
+  if player's choice is equal to 'Q'
+    kill program
+  else if isdigit and choice
+    if there are no X or O
+      turn increments to 1
+      slots with parammetr choice equals the value of turn checker
+      
+  if the game has finished the proccess is finished
+  if there are more turns than 8 game will end
   
+  frame check with os module
+  outputs frameboard
+  
+  if games has finished
+    choose the winner
+    else
+    tie the game
+    
+output 
