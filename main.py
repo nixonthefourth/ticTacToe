@@ -39,6 +39,7 @@ def shikari(dict):
             or (keys[2] == keys[5] == keys[8]) \
             or (keys[3] == keys[6] == keys[9]):
         return True
+
     # Define Diagonal Cases
     elif (keys[1] == keys[5] == keys[9]) \
             or (keys[3] == keys[5] == keys[7]):
