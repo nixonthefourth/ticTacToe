@@ -1,0 +1,6 @@
+import module os
+
+define a variable keys taht will have linked values for the frames
+
+define variable for playing the game and set it to True
+define variable for completeing game that is False
