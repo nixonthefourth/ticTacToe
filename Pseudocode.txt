@@ -1,6 +1,50 @@
 import module os
 
-define a variable keys taht will have linked values for the frames
+define a variable keys that will have linked values for the frames
 
 define variable for playing the game and set it to True
 define variable for completeing game that is False
+
+define variable for turn counting equal to zero
+
+define the variable for previous turn it is equal to -1
+
+defines function frameCreation with parameter keys
+  using f-strin creates board
+  outputting the board
+ 
+defines function turnChecker with parameter turn
+  if the modulo of turn is equal to zero
+    we are playing as the 'O'
+   else
+    I am playing as the 'X'
+ 
+defines fnction that will check winner with parametr dict (it's needed for os module)
+  if slots 1 = 2 = 3 or 4 = 5 = 6 or 7 = 8 = 9
+    return value True
+  
+  else if slots 1 = 4 = 7 or 2 = 5 = 8 or 3 = 6 = 9
+    return value True
+  
+  else if slots 1 = 5 = 9 or 3 = 5 = 7
+    return value True
+    else
+      return value False
+      
+input first player's name
+input second player's name
+
+while variable game has True statement
+  reset the screen with os module
+  
+  create frame linked to the dictionary
+  
+  if previous turn is equal to variable turn
+    output
+    
+  previous turn takes teh value of current turn
+  output('Player ', (turn modulo 2 plus 1), '`s turn')
+  
+  input player's choice
+  
+  
