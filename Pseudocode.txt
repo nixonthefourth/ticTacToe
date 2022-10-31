@@ -49,7 +49,7 @@ while variable game has True statement
   
   if player's choice is equal to 'Q'
     kill program
-  else if isdigit and choice
+  else if number is digit and equal to the choice
     if there are no X or O
       turn increments to 1
       slots with parammetr choice equals the value of turn checker
