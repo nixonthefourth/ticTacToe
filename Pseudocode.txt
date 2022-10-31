@@ -42,17 +42,17 @@ while variable game has True statement
   if previous turn is equal to variable turn
     output
     
-  previous turn takes teh value of current turn
+  previous turn takes the value of current turn
   output('Player ', (turn modulo 2 plus 1), '`s turn')
   
   input player's choice
   
   if player's choice is equal to 'Q'
     kill program
-  else if number is digit and equal to the choice
+  else if number is digit and choice is is a digit variable
     if there are no X or O
       turn increments to 1
-      slots with parammetr choice equals the value of turn checker
+      slots with parameter choice equals the value of turn checker
       
   if the game has finished the proccess is finished
   if there are more turns than 8 game will end
