@@ -5,8 +5,9 @@ Thinking behind the game is shown in the pseudocode and later implementation in 
 
 # Project Structure
 ```
-main.py
-pseudocode.txt
+| main.py
+| pseudocode.txt
+| README.md
 ```
 
 # Running
